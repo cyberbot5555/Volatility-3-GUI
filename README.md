@@ -25,6 +25,8 @@ git clone https://github.com/volatilityfoundation/volatility3.git
 cd backend
 py -3.12 -m venv venv
 .\venv\Scripts\Activate.ps1
+python -m uvicorn main:app --reload --port 8000
+
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 pip install ..\volatility3
@@ -32,3 +34,6 @@ pip install ..\volatility3
 # Frontend
 cd ..\frontend
 npm install
+npm run dev
+
+
