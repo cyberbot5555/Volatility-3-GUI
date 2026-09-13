@@ -15,7 +15,7 @@ React (Vite + Tailwind) → FastAPI → Volatility 3 CLI
 
 ```powershell
 # Clone
-git clone https://github.com/YOUR-USERNAME/volatility-web.git
+git clone https://github.com/cyberbot5555/Volatility-3-GUI.git
 cd volatility-web
 
 # Volatility 3 (kept as sibling, not committed)
